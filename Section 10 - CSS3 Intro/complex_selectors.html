@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Complex Selectors</title>
+        <!--   -->
+    <style>
+        
+        /*  Multiple selectors  */
+        h1, p {
+            background-color: lightblue;
+        }
+        
+        /* Descendents / Ancestors - no comma */
+        ul p {
+            background-color: yellow;
+        }
+        
+        /* Parent/Child Relationship - One degree of separation - (>) - (GOOGLE LINK) */
+        p>a {
+            background-color: purple;
+        }
+        
+    </style>
+    </head>
+    <body>
+        <h1>Welcome to my new website</h1>
+        <p>Here is a link to my favourite search engine <a href="http://google.com">GOOGLE</a></p>
+        
+        <ul>
+            <li><p>Paragraph 1</p></li>
+            <li><p>Paragraph 2</p></li>
+            <li><p>Paragraph 3</p></li>
+            <li><a>Anchor 1</a></li>
+        </ul>
+        
+        
+    </body>
+</html>

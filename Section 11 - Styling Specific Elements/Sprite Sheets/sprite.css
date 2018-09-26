@@ -1,0 +1,26 @@
+#cartoon {
+    
+    background: url(images/cartoon-network.png) 0px 0px;
+}
+
+#cartoon:hover {
+    
+    background: url(images/cartoon-network.png) -147px 0px;
+}
+
+/* Both (Image and hover) --> */
+.chrome .sprite {
+    background: url(images/browser-logos-sprite.png) 0px -200px;
+}
+.chrome .sprite:hover {
+    background: url(images/browser-logos-sprite.png) 0px 0px;
+}
+/* <-- End */
+
+.firefox .sprite {
+    background: url(images/browser-logos-sprite.png) -200px -200px;
+}
+
+.ie .sprite {
+    background: url(images/browser-logos-sprite.png) -400px -200px;
+}

@@ -1,0 +1,24 @@
+/* Styling Text */
+
+.poem {
+    white-space: pre-wrap;
+    text-align: center;
+    text-decoration: overline; /* underline, linethrough */
+}
+
+/* Fonts in CSS */
+
+.testparagraph {
+    font-weight: bold;
+    font-style: italic;
+    font-family: "arial", sans-serif; /* Name font with "", check websafe fonts, add backup font with comma */
+    font-size: 14px;
+}
+
+/* Web Fonts */
+/* w3schools.com - CSS Web Safe Font Combinations */
+/* 'Link' in <head> to Google Fonts - google.com/fonts */
+
+.testparadizzle {
+    font-family: Oswald;
+}

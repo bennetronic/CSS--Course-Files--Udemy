@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>id and class selectors</title>
+        <!--   -->
+    <style>
+        
+        /* CLASS SELECTOR - can apply to MULTIPLE elements  */
+        
+        .headerstyle {
+            background-color: lightgreen;
+        }
+        
+        .headertextcolor {
+            color: darkblue;
+        }
+      
+        /* ID SELECTOR - only apply ONE per element. higher priority than class selector  */
+        
+        #mostimportantinfo {
+            background-color: lightpink;
+            color: darkred;
+        }
+        
+    </style>
+    </head>
+    <body>
+        <h1 class="headerstyle">Welcome to my new website</h1>
+        <p>Here is a link to my favourite search engine</p>
+        
+        <h3 class="headertextcolor">Contact details</h3>
+        <p>name: james bennetts</p>
+        <p>address: blake apartments</p>
+        <p class="headerstyle">town: london</p>
+        <p id="mostimportantinfo">number: 01395 515153</p>
+        
+        
+    </body>
+</html>

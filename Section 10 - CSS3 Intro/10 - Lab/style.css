@@ -1,0 +1,19 @@
+/* #ADD8E6 - 'LightBlue'  */
+h1, h2, h3 {
+    background-color: #ADD8E6;
+}
+
+/* #FFFF00 - 'Yellow' */
+ul p {
+    background-color: #FFFF00;
+}
+
+/* #FFA500 - 'Orange' */
+p>a {
+    background-color: #FFA500;
+}
+
+/* #008000 - 'Green' */
+.usa {
+    color: #008000;
+}

@@ -1,0 +1,7 @@
+#image{
+    padding:5px;
+    border-style: double;
+    border-width: 10px;
+    border-color: coral purple red green;
+    border-radius: 20px;
+}
